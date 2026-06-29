@@ -281,6 +281,7 @@ export interface APIConfig {
 		selfHosted: boolean;
 		autoJoinInviteCode?: string;
 		visionariesGuildId?: string;
+		visionariesGuildVisionaryRoleId?: string;
 		branding: {
 			productName: string;
 			iconUrl?: string;
